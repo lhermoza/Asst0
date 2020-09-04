@@ -1,0 +1,74 @@
+[lh597@ilab3 ~]$ ./pointsorter "thing stuff otherstuff blarp"
+thing 
+stuff 
+otherstuff 
+blarp 
+[lh597@ilab3 ~]$ ./pointsorter "thing1stuff3otherstuff,blarp"
+thing 
+stuff 
+otherstuff 
+blarp 
+[lh597@ilab3 ~]$ ./pointsorter "marmosets zounds energetically march zoo"
+zounds 
+zoo 
+marmosets 
+march 
+energetically 
+[lh597@ilab3 ~]$ ./pointsorter "this is a sentence, like how are you doing?"
+you 
+this 
+sentence 
+like 
+is 
+how 
+doing 
+are 
+a 
+[lh597@ilab3 ~]$ ./pointsorter ""
+[lh597@ilab3 ~]$ ./pointsorter
+INPUT ERROR!
+[lh597@ilab3 ~]$ ./pointsorter oh oho yay
+INPUT ERROR!
+[lh597@ilab3 ~]$ ./pointsorter "32[2]43[234]242"
+[lh597@ilab3 ~]$ ./pointsorter "32j 42nbdh 23h d32h8 d2382k9 = erm924,f"
+nbdh 
+k 
+j 
+h 
+h 
+f 
+erm 
+d 
+d 
+[lh597@ilab3 ~]$ ./pointsorter "Q W E R T Y U I O P A S D F G H J K L Z X C V B N M"
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+P
+Q
+R
+S
+T
+U
+V
+W
+X
+Y
+Z
+[lh597@ilab3 ~]$ ./pointsorter "aand,aAnd,Aand,AAnd"
+AAnd 
+Aand 
+aAnd 
+aand 
